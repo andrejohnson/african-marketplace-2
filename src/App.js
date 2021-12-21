@@ -1,11 +1,12 @@
 import react from "react";
-import Home from "./componets/home-page";
+
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-     
+      <h1>Hello, User</h1>
       </header>
       <Home />
     </div>
