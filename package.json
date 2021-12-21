@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/material": "^5.2.5",
+    "@mui/styles": "^5.2.3",
     "axios": "^0.24.0",
     "babel-loader": "^8.2.3",
     "express": "^4.17.1",
@@ -12,7 +16,8 @@
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
-    "webpack": "^5.65.0"
+    "react-scroll": "^1.8.4",
+    "webpack": "^4.0.0"
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",

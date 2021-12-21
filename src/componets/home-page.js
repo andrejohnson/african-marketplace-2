@@ -1,10 +1,26 @@
 import react from "react";
+import { makeStyles } from '@mui/styles';
+// import { CssBaseline } from '@mui/core';
 
+
+const useStyles = makeStyles((theme) =>({
+  root:{
+    minHeight: '100vh',
+    backgroundImage: `url(${process.env.PUBLIC_URL + '../assets/food background.jpg'})`
+  },
+}));
 
 
 function Home(props){
-return <h1>Hello, User</h1>
 
+  const classes = useStyles();
+
+return(
+  <div>
+    <h1>Hello, User</h1>
+    <CssBaseline />
+</div>
+)
 }
 
 
